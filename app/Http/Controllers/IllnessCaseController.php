@@ -16,7 +16,7 @@ class IllnessCaseController extends Controller
 
     public function create()
     {
-        $rusun = Rusun::all();
+        $illness_case = IllnessCase::all();
 
         return view('illness-case.create', compact('illness_case'));
     }
